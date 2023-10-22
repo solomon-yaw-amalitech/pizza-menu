@@ -123,6 +123,13 @@ body {
   padding: 0.4rem 0;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  .pizza {
+    flex-direction: column;
+  }
+}
+
 .pizza h3 {
   font-size: 2rem;
   font-weight: 400;
